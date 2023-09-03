@@ -12,7 +12,7 @@ void main(List<String> arguments) {
     print(letra);
   }
 
-  letras.forEach((letra) {
+  for (var letra in letras) {
     print(letra);
-  });
+  }
 }
