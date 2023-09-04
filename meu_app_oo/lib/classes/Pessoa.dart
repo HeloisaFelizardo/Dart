@@ -17,4 +17,10 @@ class Pessoa {
   String getEndereco() {
     return _endereco;
   }
+
+//Criando o Map, o mesmo que objeto
+  @override
+  String toString() {
+    return {'Nome': _name, 'Endereço': _endereco}.toString();
+  }
 }
