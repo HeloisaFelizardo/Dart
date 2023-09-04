@@ -1,3 +1,5 @@
+# Capturar Estrutura de pastas
+
 Para visualizar a estrutura de pastas de um diretório pelo comando do CMD (Prompt de Comando) no Windows, você pode usar o comando `tree`. O comando `tree` exibe uma representação gráfica da estrutura de pastas e arquivos em um diretório e seus subdiretórios. A sintaxe básica do comando `tree` é a seguinte:
 
 ```
@@ -26,9 +28,9 @@ tree C:\caminho\para\diretorio
 
 Lembre-se de que o comando `tree` é específico para o ambiente Windows. Se você estiver usando um sistema operacional diferente, como o Linux ou o macOS, pode usar o comando `ls` ou `find` para fins semelhantes.
 
+# Executar os arquivos `.dart`
 
-##########################################################################################################################################################################################
-Para executar o arquivo `calculadora.dart` que está na pasta `bin` do seu projeto Dart a partir do Prompt de Comando (CMD), siga estes passos:
+Para executar o arquivo `calculadora.dart` que está na pasta `lib` do seu projeto Dart a partir do Prompt de Comando (CMD), siga estes passos:
 
 1. Abra o Prompt de Comando do Windows.
 
@@ -38,10 +40,10 @@ Para executar o arquivo `calculadora.dart` que está na pasta `bin` do seu proje
 cd D:\DEV\DART\MEU_APP
 ```
 
-3. Agora, você está no diretório do seu projeto. Para executar o arquivo `calculadora.dart` que está na pasta `bin`, você pode usar o comando `dart` seguido do caminho para o arquivo. Por exemplo:
+3. Agora, você está no diretório do seu projeto. Para executar o arquivo `calculadora.dart` que está na pasta `lib`, você pode usar o comando `dart` seguido do caminho para o arquivo. Por exemplo:
 
 ```
-dart bin/calculadora.dart
+dart lib/calculadora.dart
 ```
 
 Isso irá executar o arquivo `calculadora.dart` usando o Dart VM e você verá a saída no Prompt de Comando. Certifique-se de que o Dart SDK esteja instalado e configurado corretamente no seu sistema antes de executar o comando.
