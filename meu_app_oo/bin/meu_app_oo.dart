@@ -1,11 +1,12 @@
-import 'package:meu_app_oo/classes/Pessoa.dart';
+import 'package:meu_app_oo/classes/pessoa_fisica.dart';
+import 'package:meu_app_oo/classes/pessoa_juridica.dart';
+import 'package:meu_app_oo/enum/tipo_notificacao.dart';
 
 void main(List<String> arguments) {
-  var p1 = Pessoa();
-  p1.setName('Heloisa');
-  p1.setEndereco('Rua das Hortências');
+  var pessoaFisica1 = PessoaFisica('Roberto', 'Rua 1', '2222222');
+  print(pessoaFisica1);
 
-  print(p1);
-  print(p1.getName());
-  print(p1.getEndereco());
+  var pessoaJuridica1 = PessoaJuridica('Ana Lucia', 'Rua 2', '1256713685841',
+      tipoNotificacao: TipoNotificacao.email);
+  print(pessoaJuridica1);
 }
