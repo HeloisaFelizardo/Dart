@@ -12,7 +12,8 @@ void execute() {
     if (nome.trim() == '') {
       throw NomeInvalidoException();
     }
-  } catch (NomeInvalidoException) {
+    //`on` quer dizer: Neste erro, faça isso...
+  } on NomeInvalidoException {
     nome = 'Nome Padrão';
     print(NomeInvalidoException);
     exit(0);
