@@ -1,0 +1,13 @@
+Listagem de caminhos de pasta para o volume Dados
+O número de série do volume é 941A-E79C
+D:.
++---.dart_tool
+¦   +---pub
+¦       +---bin
+¦       ¦   +---meu_app_calculadora_imc
+¦       +---incremental
+¦           +---meu_app_calculadora_imc
++---bin
++---lib
+¦   +---classes
++---test
